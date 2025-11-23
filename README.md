@@ -17,14 +17,13 @@ Copper CAM
 11. Go to machine/ Contours/calculate Contours</br>
 12. Go to machine/mill and select engraving you will get the g code,similarly for Drill and cut. </br>
 13. Save the G code</br>
-### Contours Output
-<img width="1227" height="662" alt="image" src="https://github.com/user-attachments/assets/534f6347-488e-400b-a67e-9b60eeaca612" />
+# Contours Output
+<img width="1605" height="849" alt="image" src="https://github.com/user-attachments/assets/026a5afe-511c-4363-884f-3c212ae52585" />
 
-
-###G Code
-
+# G Code
 ### Engraving G Code
-###Engraving Layer 1
+### Engraving layer1
+```
 %
 ( CopperCAM - 29/07/2019 / ISO-Mill Output )
 ( C:\COPPERCAM\CopperCAM.iso created 15/05/2024 at 19:28 )
@@ -864,7 +863,9 @@ M09
 M05
 M02
 %
-###Engraving layer 2
+```
+### Engraving layer2
+```
 %
 ( CopperCAM - 29/07/2019 / ISO-Mill Output )
 ( C:\COPPERCAM\CopperCAM.iso created 15/05/2024 at 19:29 )
@@ -2351,8 +2352,9 @@ M09
 M05
 M02
 %
-
+```
 ### Drill G Code
+```
 %
 ( CopperCAM - 29/07/2019 / ISO-Mill Output )
 ( C:\COPPERCAM\CopperCAM.iso created 15/05/2024 at 19:28 )
@@ -2447,9 +2449,9 @@ M09
 M05
 M02
 %
-
-
+```
 ### Cutting G Code
+```
 %
 ( CopperCAM - 29/07/2019 / ISO-Mill Output )
 ( C:\COPPERCAM\CopperCAM.iso created 15/05/2024 at 19:27 )
@@ -2472,8 +2474,7 @@ M09
 M05
 M02
 %
-
-
+```
 # Result
 
-Thus the Gerber File is converted G-Code using Copper CAM.
+Thus the Gerber File into G-Code using Copper CAM.
